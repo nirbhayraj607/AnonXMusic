@@ -32,7 +32,8 @@ async def init():
         and not config.SPOTIFY_CLIENT_SECRET
     ):
         LOGGER("AnonX").warning(
-            "Spotify Client Id & Secret not added, Chutiya Saala ek itni simple cheej nahi laa paaya."
+            "Spotify Client Id & Secret not added, C
+."
         )
     try:
         users = await get_gbanned()
@@ -63,7 +64,7 @@ async def init():
     except:
         pass
     await Anon.decorators()
-    LOGGER("AnonX").info("Music Bot Started Successfully, Now Gib your girlfriend chumt to @anonymous_was_bot")
+    LOGGER("AnonX").info("Music Bot Started Successfully, Now Gib your girlfriend chumt to @sarkar_network")
     await idle()
 
 
